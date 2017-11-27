@@ -10,6 +10,7 @@ public class spawnController : MonoBehaviour {
     private float y;
     public float posA;
     public float posB;
+	public List<GameObject> Obstaculos;
     
 
 
@@ -36,8 +37,15 @@ public class spawnController : MonoBehaviour {
                 y = posB;
 
             }
-            GameObject tempPrefab = Instantiate(barreiraPrefab)as GameObject;
-            tempPrefab.transform.position = new Vector3(transform.position.x, y, tempPrefab.transform.position.z);
+         //   GameObject tempPrefab = Instantiate(barreiraPrefab)as GameObject;
+          //  tempPrefab.transform.position = new Vector3(transform.position.x, y, tempPrefab.transform.position.z);
+
+			GameObject tempPrefab = Instantiate(Obstaculos[Random.Range(0,7)])as GameObject;
+			tempPrefab.transform.position = new Vector3(transform.position.x, y, tempPrefab.transform.position.z);
+
+
+
+
         }
 
 

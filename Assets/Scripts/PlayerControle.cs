@@ -9,6 +9,10 @@ public class PlayerControle : MonoBehaviour {
     public int forcaPulo;
     public bool pulo;
     public bool slide;
+	public TextMesh Score;
+	public int Coins;
+	public int Quiz = 7;
+	public AudioClip Coin;
 
     //Verifica o chaochao
     public Transform Verificarchao2;
@@ -62,13 +66,36 @@ public class PlayerControle : MonoBehaviour {
         Anime.SetBool("Pular", !chao);
         Anime.SetBool("slider", slide);
     }
-        void OnTriggerEnter2D(){
+	void OnTriggerEnter2D(Collider2D col){
 
-        Application.LoadLevel("gameover");
+   //     Application.LoadLevel("Titulo2");
+
+		if (col.gameObject.tag == "Box" || col.gameObject.tag == "Pedra" || col.gameObject.tag == "Tijolo" || col.gameObject.tag == "Vaso"   ) {
+
+			if(Coins >= Quiz){
+				Application.LoadLevel("Titulo2");
+			} else Application.LoadLevel("gameover"); 
+			
+		} else if (col.gameObject.tag == "Coin" || col.gameObject.tag == "Mochila"  || col.gameObject.tag == "Lapis") {
+
+
+			Coins++;
+			Score.text = Coins + "";
+		} 
 
         }
     
         
     }
+
+
+
+
+
+
+
+
+
+
 
 

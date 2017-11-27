@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Coin
+  - Pedra
+  - Tijolo
+  - Box
+  - Vaso
+  - Mochila
+  - Lapis
   layers:
   - Default
   - TransparentFX

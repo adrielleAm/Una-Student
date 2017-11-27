@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 6cf9f4b4e8ce75743a546c8c1fb1b5d7
+timeCreated: 1511743687
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: The Queen
+  fontNames:
+  - The Queen
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 38c42c85e9da0c044b1e97efe1c32d5e, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

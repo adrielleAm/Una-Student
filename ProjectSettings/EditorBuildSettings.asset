@@ -14,3 +14,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Cenas/gameover.unity
     guid: 9dd5bce3b2b95814893b64eb68c53b6b
+  - enabled: 1
+    path: Assets/Cenas/Titulo2.unity
+    guid: 7b573c0e2101ad64c9a9a62b02e1581e
+  - enabled: 1
+    path: Assets/Cenas/temas.unity
+    guid: ae5f15b66d614b848bc8cac25de50621
+  - enabled: 1
+    path: Assets/Cenas/T1.unity
+    guid: 17a2b3cc4d0ad134ab179cd8d4dd5264
+  - enabled: 1
+    path: Assets/Cenas/T2.unity
+    guid: 8e866a47a744f2c47a3283f0d31457b6
+  - enabled: 1
+    path: Assets/Cenas/notaFinal.unity
+    guid: a61d0a0242dd5274aab7602426499202
